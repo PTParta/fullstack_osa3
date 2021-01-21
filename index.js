@@ -1,5 +1,5 @@
 require('dotenv').config()
-const { response } = require('express')
+const { response } = require('express') // eslint-disable-line no-unused-vars
 const express = require('express')
 const morgan = require('morgan')
 const app = express()
